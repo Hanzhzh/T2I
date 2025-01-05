@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../clip/Long-CLIP/.idea/Long-CLIP.iml" filepath="$PROJECT_DIR$/../clip/Long-CLIP/.idea/Long-CLIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../clip/.idea/clip.iml" filepath="$PROJECT_DIR$/../clip/.idea/clip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clipText.iml" filepath="$PROJECT_DIR$/.idea/clipText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../universityText/.idea/universityText.iml" filepath="$PROJECT_DIR$/../universityText/.idea/universityText.iml" />
+    </modules>
+  </component>
+</project>

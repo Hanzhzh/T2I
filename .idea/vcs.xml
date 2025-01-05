@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../clip/CLIP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../clip/Long-CLIP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../clip/Long-CLIP/checkpoints/clip-vit-base-patch32" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../clip/RemoteCLIP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GeoText1652_model" vcs="Git" />
+  </component>
+</project>

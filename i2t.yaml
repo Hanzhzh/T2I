@@ -1,0 +1,45 @@
+#train_file:  ["/root/GeoText-1652/GeoText1652_Dataset/train.json"]
+#test_file: "/root/GeoText-1652/GeoText1652_Dataset/test_951_version.json"
+#image_root: '/root/GeoText-1652/GeoText1652_Dataset/images'
+
+## Vision Encoder
+vision_config: 'configs/config_swinB_384.json'
+
+use_clip_vit: False
+#image_res: 384
+#patch_size: 16
+
+GPUS: "0"  # 指定要使用的GPU设备
+use_swin: True
+image_res: 384
+patch_size: 32
+
+view_folder: ["drone","satellite"]
+data_folder: "/home/hanzz/projects/image_caption/dataset/U1652-part"  # 更新为您的实际路径
+
+## Text Encoder
+use_roberta: False
+text_config: 'configs/config_bert.json'  # ['configs/config_bert.json', 'configs/config_roberta.json']
+text_encoder: './GeoText1652_model/bert'  # ['data/bert-base-uncased', 'data/roberta-base']
+
+## Training
+batch_size_train: 2
+batch_size_test: 2
+batch_size_test_text: 512
+max_tokens: 400 #已修改， 原50
+embed_dim: 768
+temp: 0.07
+k_test: 10  #256
+chunk_size: 50 # 验证函数中的参数，用于分块计算相似度矩阵减少显存占用，表示每次计算最多处理 chunk_size 张图像的相似度
+accumulation_steps: 10 # 训练函数的梯度累积步数，模拟大批次数据
+
+use_amp: False
+recall_k: [1, 5, 10]
+use_half: true
+## Other Settings
+# optimizer: {opt: adamW, lr: 3e-6, weight_decay: 0.001, lr_mult: 2}
+# schedular: {sched: linear, lr: 3e-6, epochs: 3, num_warmup_steps: 0.1}
+
+
+optimizer: {opt: adamW, lr: 3e-6, weight_decay: 0.001, lr_mult: 2}
+schedular: {sched: linear, lr: 3e-6, epochs: 2, num_warmup_steps: 0.1}
