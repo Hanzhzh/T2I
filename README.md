@@ -8,11 +8,12 @@
 背景2：
 
 由于自己研一整年都在参与某一个卫星/无人机/地面装备协同作战的军工项目，项目中的其中一个研究课题就是跨视角的图像匹配与检索任务（检索数据集中同一目标的不同视角图像），数据集的样例如下（非真实数据）：
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/60b928b5-59ad-488c-b147-b943a2a03d01" width="25%">
-  <img src="https://github.com/user-attachments/assets/d41359b5-fd7c-4df6-bda6-4d3c75362673" width="25%">
-  <img src="https://github.com/user-attachments/assets/a69e0877-215f-4a8f-8c30-6c5514c29be6" width="25%">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/60b928b5-59ad-488c-b147-b943a2a03d01" width="180" height="120">
+  <img src="https://github.com/user-attachments/assets/d41359b5-fd7c-4df6-bda6-4d3c75362673" width="180" height="120">
+  <img src="https://github.com/user-attachments/assets/a69e0877-215f-4a8f-8c30-6c5514c29be6" width="180" height="120">
 </div>
+
 
 第一想法是在无人机机载或卫星机载上直接进行图像匹配与检索，但实际上卫星与无人机的计算资源与存储资源十分有限，随着运行时间推进，无法满足图像数据库的存储需求，而且由于设备的移动速度很快，对匹配与检索速度的要求非常高，图像与图像进行检索显然过于耗时了，
 ## 项目动机
