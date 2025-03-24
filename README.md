@@ -9,9 +9,9 @@
 
 由于自己研一整年都在参与某一个卫星/无人机/地面装备协同作战的军工项目，项目中的其中一个研究课题就是跨视角的图像匹配与检索任务（检索数据集中同一目标的不同视角图像），数据集的样例如下（非真实数据）：
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/60b928b5-59ad-488c-b147-b943a2a03d01" width="180" height="120">
-  <img src="https://github.com/user-attachments/assets/d41359b5-fd7c-4df6-bda6-4d3c75362673" width="180" height="120">
-  <img src="https://github.com/user-attachments/assets/a69e0877-215f-4a8f-8c30-6c5514c29be6" width="180" height="120">
+  <img src="https://github.com/user-attachments/assets/60b928b5-59ad-488c-b147-b943a2a03d01" style="width:30%; height:auto;">
+  <img src="https://github.com/user-attachments/assets/d41359b5-fd7c-4df6-bda6-4d3c75362673" style="width:30%; height:auto;">
+  <img src="https://github.com/user-attachments/assets/a69e0877-215f-4a8f-8c30-6c5514c29be6" style="width:30%; height:auto;">
 </div>
 
 
