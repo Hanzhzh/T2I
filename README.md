@@ -1,12 +1,12 @@
-# 该项目代码有所改变，我将尽快修改代码，并给出readme文件
+## 该项目代码有所改变，我将尽快修改代码，并给出readme文件
 
 ## 项目适用的场景：
-
+推荐系统的图文理解/图文检索/图文匹配、目标重识别、某些对存储有限制时的图像检索/匹配、大模型在图文理解上的应用等等......
 
 ## 项目背景
 ### 背景1：
 
-由于自己从入学以来（一年半）都在参与某一个卫星/无人机/地面装备协同作战的军工项目，项目中的其中一个研究课题就是跨视角的图像匹配与检索任务（检索数据集中同一目标的不同视角图像），数据集的样例如下（非真实数据）：
+由于从入学以来都在参与某一个卫星/无人机/地面装备协同作战的军工项目，项目中的其中一个研究课题就是跨视角的图像匹配与检索任务（检索数据集中同一目标的不同视角图像），数据集的样例如下（非真实数据）：
 <div style="display: flex; justify-content: space-between; align-items: center;gap:10%;">
   <img src="https://github.com/user-attachments/assets/60b928b5-59ad-488c-b147-b943a2a03d01" style="width:20%; height:auto;">
   <img src="https://github.com/user-attachments/assets/d41359b5-fd7c-4df6-bda6-4d3c75362673" style="width:20%; height:auto;">
