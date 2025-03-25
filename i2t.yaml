@@ -15,7 +15,7 @@ image_res: 384
 patch_size: 32
 
 view_folder: ["drone","satellite"]
-data_folder: "/home/hanzz/projects/image_caption/dataset/U1652-part"  # 更新为您的实际路径
+data_folder: "/home/hanzz/projects/image_caption/dataset/U1652-part"  # 数据集路径
 
 ## Text Encoder
 use_roberta: False
