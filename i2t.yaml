@@ -1,7 +1,3 @@
-#train_file:  ["/root/GeoText-1652/GeoText1652_Dataset/train.json"]
-#test_file: "/root/GeoText-1652/GeoText1652_Dataset/test_951_version.json"
-#image_root: '/root/GeoText-1652/GeoText1652_Dataset/images'
-
 ## Vision Encoder
 vision_config: 'configs/config_swinB_384.json'
 
